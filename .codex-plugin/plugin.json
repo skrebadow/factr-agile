@@ -1,0 +1,21 @@
+{
+  "name": "factr-agile",
+  "version": "0.1.0",
+  "description": "Decompose scope and shape backlog artifacts using FACTR Core behavioral reasoning.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FACTR Agile",
+    "shortDescription": "Decompose scope and shape testable backlog items.",
+    "longDescription": "Independent Agile refinement using behavioral falsifiability. Decompose product scope or supported system responsibilities; shape epics, features, stories, and observable acceptance criteria while preserving source constraints and uncertainty.",
+    "category": "Productivity",
+    "capabilities": [],
+    "brandColor": "#701C35",
+    "composerIcon": "./assets/factr-agile-icon.png",
+    "logo": "./assets/factr-agile-icon.png",
+    "defaultPrompt": [
+      "Use FACTR Agile to decompose this product scope into useful capability slices.",
+      "Use FACTR Agile to refine this feature into stories and acceptance criteria.",
+      "Use FACTR Agile to propose subsystem allocations from these requirements."
+    ]
+  }
+}

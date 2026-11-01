@@ -1,0 +1,4 @@
+interface:
+  display_name: "FACTR Agile"
+  short_description: "Decompose scope and refine testable backlog items."
+  default_prompt: "Use $factr-agile to refine this scope into useful backlog items with observable acceptance criteria."
